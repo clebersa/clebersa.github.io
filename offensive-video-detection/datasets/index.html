@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!--<link rel="shortcut icon" href="assets/ico/favicon.ico"> -->
+
+    <title>Offensive Video Detection - Datasets</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Offensive Video Detection</a>
+        </div>
+      </div>
+    </div>
+
+		<div id="blue">
+		    <div class="container">
+				<div class="row">
+					<h3>Datasets</h3>
+				</div>
+		    </div>
+		</div>
+
+	  <div class="container mtb">
+	  	<div class="row">
+	  		<div class="col-lg-12">
+	  			This page contains the <code>OffVidPT</code> dataset, a dataset of offensive videos used for a classification task of offensive video detection. The dataset has 400 videos and it is divided in 5 feature sets: descriptions, tags, titles, transcriptions and statistics. All files are in the CSV format.
+	  		</div>
+	  	</div>
+		  <div class="row">
+			  <div class="col-lg-6 col-md-6">
+				  <h4>OffVidPT-2</h4>
+				  <div class="hline" style="margin-bottom: 10px"></div>
+		 			<div class="progress" style="height: 40px">
+					  <div class="progress-bar progress-bar-danger" role="progressbar" style="width: 58.75%;" aria-valuenow="58.75" aria-valuemin="0" aria-valuemax="100">
+					  	<b>235 offensive videos</b><br/>
+					  	58.75%
+					  </div>
+					  <div class="progress-bar progress-bar-success" role="progressbar" style="width: 41.25%;" aria-valuenow="41.25" aria-valuemin="0" aria-valuemax="100">
+					  	<b>165 not offensive videos</b><br/>
+					  	41.25%
+					  </div>
+					</div>
+		 			<p>Dataset in which 2 or 3 annotators out of 3 found at least one offensive moment in the video.</p>
+		 			<p><a href="OffVidPT-2/annotations_descriptions.csv"><i class="fa fa-download"></i> Descriptions</a></p>
+		 			<p><a href="OffVidPT-2/annotations_tags.csv"><i class="fa fa-download"></i> Tags</a></p>
+		 			<p><a href="OffVidPT-2/annotations_titles.csv"><i class="fa fa-download"></i> Titles</a></p>
+		 			<p><a href="OffVidPT-2/annotations_transcriptions.csv"><i class="fa fa-download"></i> Transcriptions</a></p>
+		 			<p><a href="OffVidPT-2/annotations_statistics.csv"><i class="fa fa-download"></i> Statistics</a></p>
+		    </div>
+			  <div class="col-lg-6 col-md-6">
+				  <h4>OffVidPT-3</h4>
+				  <div class="hline" style="margin-bottom: 10px"></div>
+		 			<div class="progress" style="height: 40px">
+					  <div class="progress-bar progress-bar-danger" role="progressbar" style="width: 39%;" aria-valuenow="39" aria-valuemin="0" aria-valuemax="100">
+					  	<b>156 offensive videos</b><br/>
+					  	39.00%
+					  </div>
+					  <div class="progress-bar progress-bar-success" role="progressbar" style="width: 61%;" aria-valuenow="61" aria-valuemin="0" aria-valuemax="100">
+					  	<b>244 not offensive videos</b><br/>
+					  	61.00%
+					  </div>
+					</div>
+		 			<p>Dataset in which all 3 annotators found at least one offensive moment in the video.</p>
+		 			<p><a href="OffVidPT-3/annotations_descriptions.csv"><i class="fa fa-download"></i> Descriptions</a></p>
+		 			<p><a href="OffVidPT-3/annotations_tags.csv"><i class="fa fa-download"></i> Tags</a></p>
+		 			<p><a href="OffVidPT-3/annotations_titles.csv"><i class="fa fa-download"></i> Titles</a></p>
+		 			<p><a href="OffVidPT-3/annotations_transcriptions.csv"><i class="fa fa-download"></i> Transcriptions</a></p>
+		 			<p><a href="OffVidPT-3/annotations_statistics.csv"><i class="fa fa-download"></i> Statistics</a></p>
+		    </div>
+			</div>
+		</div>
+
+	<div id="footerwrap">
+	 	<div class="container">
+		 	<div class="row">
+ 				<div class="col-lg-3 col-md-12">
+            <h4>
+                About
+                <div class="pull-right h5">
+                </div>
+            </h4>
+            <div class="hline-w"></div>
+            <p>This is part of a masters degree project that aims to develop a computacional model able to identify offensive videos based their features. This project is developed by <a href="http://lattes.cnpq.br/7423530814227745" target="_blanket">Cleber de Souza Alcântara</a>.</p>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <h4>Supporters</h4>
+            <div class="hline-w"></div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                    <a href="http://ufrgs.br" target="_blank">
+                        <img class="img-rounded" src="assets/img/logo_ufrgs.jpg">
+                    </a>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                    <a href="http://inf.ufrgs.br" target="_blank">
+                        <img class="img-rounded" src="assets/img/logo_inf.jpg">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <h4>Sponsorship</h4>
+            <div class="hline-w"></div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                    <a href="http://cnpq.br" target="_blank">
+                        <img class="img-rounded" src="assets/img/logo_cnpq.jpg">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-12">
+            <h4>Our Address</h4>
+            <div class="hline-w"></div>
+            <p>
+            	<b>Room 215, Building 43424<br/>
+            	Instituto de Informática, UFRGS - Campus do Vale</b><br/>
+            	Bento Gonçalves Avenue, 9500<br/>
+            	Porto Alegre, RS, Brazil<br/>Zip Code 91501-970
+            </p>
+        </div>
+	 		</div>
+	 	</div>
+ 	</div>
+	 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/retina-1.1.0.js"></script>
+	<script src="assets/js/jquery.hoverdir.js"></script>
+	<script src="assets/js/jquery.hoverex.min.js"></script>
+	<script src="assets/js/jquery.prettyPhoto.js"></script>
+	<script src="assets/js/jquery.isotope.min.js"></script>
+	<script src="assets/js/custom.js"></script>
+
+  </body>
+</html>
